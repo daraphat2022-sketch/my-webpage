@@ -1,0 +1,65 @@
+.navbar{
+display:flex;
+justify-content: center;
+align-items: 20px;
+background-color: #333;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style:  none;
+}
+.nav-links a{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.container{
+    display: flex;
+    width: 85%;
+    height: 500px;
+    background-color: black;
+    margin: 10px auto;
+}
+.container .box-left{
+    width: 60%;
+    height: 100%;
+    background-color: antiquewhite;
+    position: relative;
+}
+.box-left img{
+    position: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-left h2{
+    position:absolute;
+    bottom: 20px;
+    left: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Kantumruy Pro",sans-serif;
+    line-height: 20px;
+}
+.container .box-left{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}
+.box-left-1{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+.box-left-2{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+    float: left;
+}
+.box-left-3{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+    float: left;
+}
